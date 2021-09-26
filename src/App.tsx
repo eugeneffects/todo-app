@@ -25,7 +25,8 @@ const App: React.FC = () => {
         })
     }
 
-    const onClick = () => {
+    const onClick = (e: React.ChangeEventbr
+    ) => {
         if (!input.name || !input.address || !input.desc) {
             alert("전부 입력해 주세요.")
             return
